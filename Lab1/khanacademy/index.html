@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KhanAcademy</title>
+    <style>
+      /* body{
+        background-color: purple;
+    }
+    p{
+        color: pink;
+    }
+    h1{
+        color: pink;
+    } */
+      #summer {
+        color: green;
+      }
+      #winter {
+        color: blue;
+      }
+      .apples {
+        color: red;
+      }
+      .bananas {
+        color: yellow;
+      }
+      #title {
+        color: red;
+      }
+      .desc {
+        color: purple;
+      }
+      #flinstones {
+        font-family: sans-serif;
+      }
+
+      #jetsons {
+        font-family: monospace;
+      }
+
+      #addams {
+        font-family: fantasy;
+      }
+      .big {
+        font-size: large;
+      }
+
+      .bigger {
+        font-size: x-large;
+      }
+      .declaration {
+        font-weight: bold;
+      }
+
+      .quote {
+        font-style: italic;
+      }
+      .blog {
+        font-family: fantasy;
+        font-weight: bold;
+      }
+      .post {
+        font-size: x-large;
+        text-decoration: underline;
+      }
+      .content {
+        font-weight: bold;
+      }
+
+      .first-sentence {
+        font-weight: bold;
+      }
+      .info {
+        background: rgb(219, 235, 255);
+        width: 70%;
+        height: 200px;
+        overflow-y: auto;
+      }
+      .pic {
+        width: 70%;
+        height: 200px;
+      }
+      .photo-gallery {
+        background: rgb(255, 254, 217);
+        padding: 50px;
+      }
+      .photo {
+        width: 200px;
+        border: 1px solid black;
+        margin: 50px;
+      }
+
+      #greeting {
+        background: rgb(255, 255, 0);
+        border: 2px solid black;
+        font-family: "Comic Sans MS", fantasy;
+        padding: 5px;
+        width: 262px;
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        z-index: 10;
+      }
+
+      #creature {
+        position: absolute;
+        top: 50px;
+        left: 60px;
+      }
+
+      #cloud-pic {
+        width: 100px;
+        float: left;
+        margin-left: 50px;
+      }
+      #cloud-sidebar {
+        background: rgb(255, 255, 219);
+        float: right;
+        width: 30%;
+      }
+      .image-small {
+        width: 150px;
+      }
+      .image-medium {
+        width: 200px;
+      }
+      .black-frame {
+        border: 8px double rgb(38, 38, 38);
+      }
+      .gold-frame {
+        border: 10px ridge rgb(255, 183, 0);
+      }
+      .silver-frame {
+        border: 10px groove rgb(204, 204, 204);
+      }
+      .metal {
+        color: red;
+      }
+      .non-metal {
+        color: blue;
+      }
+      .semi-metal {
+        color: purple;
+      }
+      h2.metal {
+        background-color: red;
+        color: white;
+      }
+      h2.non-metal {
+        background-color: blue;
+        color: white;
+      }
+      h2.semi-metal {
+        background-color: purple;
+        color: white;
+      }
+      .emperor {
+        font-family: cursive;
+      }
+
+      .reign {
+        font-family: monospace;
+      }
+      table .emperor {
+        background-color: red;
+      }
+
+      table .reign {
+        background-color: blue;
+      }
+      h1,
+      h2 {
+        font-family: fantasy;
+        border-bottom: 1px solid rgb(230, 230, 230);
+        padding: 3px;
+      }
+
+      h1:hover,
+      h2:hover {
+        background-color: rgb(248, 255, 199);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- UNIT 1 -->
+    <!-- 1 task -->
+    <h1>My life with cat</h1>
+    <p>
+      Roses are red, <br />
+      Violets are blue, <br />
+      My life with my cat is cool
+    </p>
+
+    <!-- 2 task -->
+    <p>
+      <em>Nobody’s born smart.</em> We all start at 0. Can’t talk, can’t walk,
+      certainly can’t do algebra.<br />
+      Adding, reading, writing, riding a bike. Nobody’s good at anything at
+      first.<br />
+      There was a time when Einstein couldn’t count to 10.<br />
+      And Shakespeare had to learn his ABCs just like the rest of us.<br />
+      Thankfully, we are born to learn.<br />
+      <strong
+        >Slowly. Surely. You stumble, slip, crawl, fall and fail and
+        fall.</strong
+      ><br />
+      Frustrating. Confusing. Trying. Struggling.<br />
+      Until one day, you walk.<br />
+      One foot in front of the other. One idea on top of the next.<br />
+      Each wrong answer making your brain a little bit stronger.<br />
+      Failing is just another word for growing. And you keep going.<br />
+      This. is. learning.<br />
+      It’s not that you don’t get it. <br />
+      You just don’t get it, yet. Because the most beautiful, complex concepts
+      in the whole universe<br />
+      are built on basic ideas that anyone, anywhere can understand.<br />
+      <em>Whoever you are, wherever you are.</em><br />
+    </p>
+    <p>
+      You only have to know one thing:<br />
+      <strong>You can learn anything.</strong>
+    </p>
+
+    <!-- 3 task -->
+    <ol>
+      <li>Snowboard</li>
+      <li>Sunglasses</li>
+      <li>Watch</li>
+    </ol>
+
+    <!-- 4 task -->
+    <h1>The perfect trip</h1>
+    <p>I would see scenes like...</p>
+    <img
+      width="300"
+      height="200"
+      src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/fireworks-in-sky.png"
+      alt="fireworks"
+    />
+    <p>And animals like...</p>
+    <img
+      width="300"
+      height="200"
+      src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/cat.png"
+      alt="cat"
+    />
+    <p>And eat food like...</p>
+    <img
+      width="300"
+      height="200"
+      src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/gingerbread-man.png"
+      alt="ginger"
+    />
+
+    <!-- UNIT 2 -->
+
+    <!-- 1 task -->
+    <h1>The coolest creature</h1>
+    <img
+      src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/duskpin-ultimate.png"
+    />
+    <p>
+      The <em>lion fairy </em> is awesome because
+      <strong>It has an amazing skills to jump and climb. </strong>.
+    </p>
+
+    <!-- 2 task -->
+    <h1>Olaf's favorite seasons</h1>
+    <h2 id="summer">Summer</h2>
+    <p>He's a happy snowman, doing what frozen things do in summer.</p>
+    <h2 id="winter">Winter</h2>
+    <p>He likes to stay in and cuddle</p>
+
+    <!-- 3 task -->
+    <h1>
+      <strong class="apples">Apples</strong> and
+      <strong class="bananas">Bananas</strong>
+    </h1>
+
+    <p>
+      I like to eat eat eat
+      <strong class="apples">apples</strong> and
+      <strong class="bananas">bananas</strong>.<br />
+      I like to eat eat eat
+      <strong class="apples">apples</strong> and
+      <strong class="bananas">bananas</strong>.<br />
+      I like to ate ate ate
+      <strong class="apples">ay-ples</strong> and
+      <strong class="bananas">bay-nay-nays</strong>.<br />
+      I like to ate ate ate
+      <strong class="apples">ay-ples</strong> and
+      <strong class="bananas">bay-nay-nays</strong>.<br />
+      I like to eet eet eet
+      <strong class="apples">ee-ples</strong> and
+      <strong class="bananas">bee-nee-nees</strong>.<br />
+      I like to eet eet eet
+      <strong class="apples">ee-ples</strong> and
+      <strong class="bananas">bee-nee-nees</strong>.<br />
+      I like to ite ite ite
+      <strong class="apples">i-ples</strong> and
+      <strong class="bananas">by-by-nys</strong>.<br />
+      I like to ite ite ite
+      <strong class="apples">i-ples</strong> and
+      <strong class="bananas">by-by-nys</strong>.<br />
+      I like to ote ote ote
+      <strong class="apples">oh-ples</strong> and
+      <strong class="bananas">bo-no-nos</strong>.<br />
+      I like to ote ote ote
+      <strong class="apples">oh-ples</strong> and
+      <strong class="bananas">bo-no-nos</strong>.<br />
+      I like to ute ute ute
+      <strong class="apples">uupples</strong> and
+      <strong class="bananas">bununus</strong>.<br />
+      I like to ute ute ute
+      <strong class="apples">uupples</strong> and
+      <strong class="bananas">bununus</strong>.<br />
+      I like to eat eat eat
+      <strong class="apples">apples</strong> and
+      <strong class="bananas">bananas</strong>.<br />
+    </p>
+
+    <!-- Project -->
+    <h1 id="title">Travel to Bangkok</h1>
+    <p class="desc">
+      This summer we traveled to Bangkok, and saw a lot of interesting places
+      there. For example these beach, the name is <strong>Kanongtan</strong>.
+    </p>
+    <ol>
+      <li>Shopping mall</li>
+      <li>Art center</li>
+      <li>Beach</li>
+    </ol>
+    <img
+      src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-in-hawaii.png"
+      alt="places"
+    />
+    <h1 id="title">Local Food</h1>
+    <p>Also, we ate a lot of local food:</p>
+    <ol>
+      <li>Fried rice</li>
+      <li>Seafood</li>
+      <li>Tom Yam</li>
+    </ol>
+    <img
+      width="500"
+      height="300"
+      src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/fish_grilled-snapper.png"
+      alt="food"
+    />
+    <img
+      width="500"
+      height="300"
+      src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/oysters.png"
+      alt="food"
+    />
+
+    <!-- UNIT 3 -->
+
+    <!-- 1 task -->
+    <h1>Links for learning</h1>
+    <ul>
+      <li>
+        <a href="https://www.w3schools.com/html/html_editors.asp"
+          >Go to school</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://learn.udacity.com/courses/ud001/lessons/c367c434-d3b2-4d57-b637-0ad4e6ffe3b4/concepts/06c36831-41e3-41fc-8448-14071e7bb54e"
+          >Udacity</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.khanacademy.org/computing/computer-programming/html-css/html-tags-continued/pc/challenge-links-you-love"
+          >Khan</a
+        >
+      </li>
+    </ul>
+    <a
+      href="https://www.khanacademy.org/computing/computer-programming/html-css/html-tags-continued/pc/challenge-links-you-love"
+      ><img src="https://www.kasandbox.org/programming-images/cute/Heart.png"
+    /></a>
+
+    <!-- 2 task -->
+    <h1 id="kangaroos">Kangaroos</h1>
+
+    <p>
+      Jump to sections:
+      <a href="http://en.wikipedia.org/wiki/Kangaroo">Locomotion</a>,
+      <a href="http://en.wikipedia.org/wiki/Kangaroo">Diet</a>
+    </p>
+    <p>
+      The <strong>kangaroo</strong> is a marsupial from the family Macropodidae
+      (macropods, meaning 'large foot'). In common use the term is used to
+      describe the largest species from this family, especially those of the
+      genus Macropus, red kangaroo, antilopine kangaroo, eastern grey kangaroo
+      and western grey kangaroo. Kangaroos are endemic to Australia, and one
+      genus, the tree-kangaroo, is also found in Papua New Guinea.
+    </p>
+
+    <p>
+      Kangaroos have large, powerful hind legs, large feet adapted for leaping,
+      a long muscular tail for balance, and a small head. Like most marsupials,
+      female kangaroos have a pouch called a marsupium in which joeys complete
+      postnatal development.
+    </p>
+
+    <p>
+      Larger kangaroos have adapted much better than smaller macropods to land
+      clearing for pastoral agriculture and habitat changes brought to the
+      Australian landscape by humans. Many of the smaller species are rare and
+      endangered, whilst the larger kangaroos are relatively plentiful.
+    </p>
+
+    <h3 id="locomotion">Locomotion</h3>
+
+    <p>
+      A Tasmanian forester (eastern grey) kangaroo in motion. Kangaroos are the
+      only large animals to use hopping as a means of locomotion. The
+      comfortable hopping speed for a red kangaroo is about 20–25 km/h (13–16
+      mph), but speeds of up to 70 km/h (44 mph) can be attained over short
+      distances, while it can sustain a speed of 40 km/h (25 mph) for nearly 2
+      km (1.2 mi). This fast and energy-efficient method of travel has evolved
+      because of the need to regularly cover large distances in search of food
+      and water, rather than the need to escape predators. At slow speeds, it
+      employs pentapedal locomotion, using its tail to form a tripod with its
+      two forelimbs while bringing its hind feet forward. Kangaroos are adept
+      swimmers, and often flee into waterways if threatened by a predator. If
+      pursued into the water, a kangaroo may use its forepaws to hold the
+      predator underwater so as to drown it.
+    </p>
+
+    <h3 id="diet">Diet</h3>
+
+    <p>
+      Kangaroos have chambered stomachs similar to those of cattle and sheep.
+      They regurgitate the vegetation they have eaten, chew it as cud, and then
+      swallow it again for final digestion. Different species of kangaroos have
+      different diets, although all are strict herbivores. The eastern grey
+      kangaroo is predominantly a grazer, eating a wide variety of grasses,
+      whereas some other species (e.g. the red kangaroo) include significant
+      amounts of shrubs in their diets. The smaller species of kangaroos also
+      consume hypogeal fungi. Many species are nocturnal, and crepuscular,
+      usually spending the days resting in shade, and the cool evenings, nights
+      and mornings moving about and feeding.
+    </p>
+
+    <p>
+      Because of its grazing habits, the kangaroo has developed specialized
+      teeth. Its incisors are able to crop grass close to the ground, and its
+      molars chop and grind the grass. Since the two sides of the lower jaw are
+      not joined together, the lower incisors are farther apart, giving the
+      kangaroo a wider bite. The silica in grass is abrasive, so kangaroo molars
+      move forward as they are ground down, and eventually fall out, replaced by
+      new teeth that grow in the back. This process is known as polyphyodonty
+      and amongst other mammals, only occurs in elephants and manatees.
+    </p>
+
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Kangaroo">kangaroos</a> |
+      <a href="http://en.wikipedia.org/wiki/Kangaroo">Read more on Wikipedia</a>
+    </p>
+
+    <!-- 3 task -->
+    <h1>Our dinner menu</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Meal</th>
+          <th>Ingredients</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Steak</td>
+          <td>Meat, salt, pepper</td>
+          <td>5000</td>
+        </tr>
+        <tr>
+          <td>Steak</td>
+          <td>Meat, salt, pepper</td>
+          <td>5000</td>
+        </tr>
+        <tr>
+          <td>Steak</td>
+          <td>Meat, salt, pepper</td>
+          <td>5000</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- 2 PROJECT -->
+    <h1>Dalida's Recipe Book</h1>
+
+    <h2>Contents:</h2>
+
+    <ol>
+      <li>
+        <a href="https://www.w3schools.com/html/html_editors.asp">Apple pie</a>
+      </li>
+    </ol>
+
+    <h2 id="recipe">Apple pie</h2>
+
+    <ul>
+      <li>Time: 40min</li>
+      <li>Serves: 50min</li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Wheat</td>
+          <td>500gramm</td>
+        </tr>
+        <tr>
+          <td>Eggs</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Sugar</td>
+          <td>500gramm</td>
+        </tr>
+        <tr>
+          <td>Apples</td>
+          <td>1 kilogram</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><strong>Step 1:</strong> Do something.</p>
+
+    <p>
+      <em
+        >Source:
+        <a href="https://www.w3schools.com/html/html_editors.asp"
+          >Some recipes websites</a
+        ></em
+      >
+    </p>
+
+    <!-- 4 UNIT -->
+
+    <!-- 1 task -->
+    <p>Some fun theme songs of well known TV families...</p>
+
+    <h4>The Flinstones</h4>
+    <p id="flinstones">
+      Meet the Flintstones<br />
+      They're the modern stone age family<br />
+      From the town of Bedrock<br />
+      They're a page right of history
+    </p>
+
+    <h4>The Jetsons</h4>
+    <p id="jetsons">
+      Meet George Jetson,<br />
+      His Boy Elroy,<br />
+      Daughter Judy,<br />
+      Jane, His wife
+    </p>
+
+    <h4>The Addams Family</h4>
+    <p id="addams">
+      They're creepy and they're kooky,<br />
+      mysterious and spooky<br />
+      They're all together ooky,<br />
+      the Addams Family
+    </p>
+
+    <!-- 2 task -->
+    <h1>Great Big Words</h1>
+    <h2>by Michael Mark & Tom Chapin</h2>
+
+    <p>
+      When I was a little kid, a "<em class="big">diminutive juvenile</em>,"
+      <br />
+      I liked my folks to read to me, I was an
+      <em class="big">"eager bibliophile."</em> <br />
+      Now I love words for how they sound <br />
+      And how they <em class="big">"communicate."</em> <br />
+      Perhaps I should explain myself, that is,
+      <em class="big">"elucidate."</em>
+      <br />
+      Great big words, I like <em class="big">big</em> words. <br />
+      Letter by letter, the <em class="bigger">bigger</em> the better <br />
+      Great big words. La la la la la la la la la la!
+    </p>
+
+    <!-- 3 task -->
+    <h2>Famous quotes</h2>
+    <p class="quote">
+      "My mama always said life was like a box of chocolates. You never know
+      what you're gonna get.".
+      <br />
+      - Forrest Gump
+    </p>
+
+    <p class="quote">
+      "May the force be with you."
+      <br />- Star Wars
+    </p>
+
+    <h2>Famous declarations</h2>
+
+    <p class="declaration">I'M BATMAN.</p>
+
+    <p class="declaration">
+      Earth, water, fire. Together, we are CAPTAIN PLANET!
+    </p>
+
+    <!-- 3 PROJECT -->
+    <h1 class="blog">Dalida's blog</h1>
+
+    <h3>Contents</h3>
+    <ul>
+      <li>First post!</li>
+      <li>Second post!</li>
+    </ul>
+
+    <h2 class="post">First post</h2>
+    <h6>25.01.2025</h6>
+
+    <p class="content">
+      Something excited happened. I am doing my lab, and I hope to finish it
+      fats
+    </p>
+
+    <h2 class="post">Second post</h2>
+    <h6>25.01.2025</h6>
+
+    <p class="content">
+      Something excited happened. I am doing my lab, and I hope to finish it
+      fats
+    </p>
+
+    <!-- 6 UNIT -->
+
+    <!-- 1 task -->
+    <h1>Groupers</h1>
+    <div class="info">
+      <p>
+        <span class="first-sentence"
+          >Groupers are teleosts (ray-finned fishes), typically having a stout
+          body and a large mouth. </span
+        >They can be quite large, and lengths over a meter and weights up to 100
+        kg are not uncommon, though obviously in such a large group, species
+        vary considerably. They swallow prey rather than biting pieces off it.
+        They do not have many teeth on the edges of their jaws, but they have
+        heavy crushing tooth plates inside the pharynx. They habitually eat
+        fish, octopuses, and crustaceans. Reports of fatal attacks on humans by
+        the largest species, the giant grouper (Epinephelus lanceolatus) are
+        unconfirmed.
+      </p>
+
+      <p>
+        <span class="first-sentence"
+          >Their mouths and gills form a powerful sucking system that sucks
+          their prey in from a distance.</span
+        >
+        They also use their mouths to dig into sand to form their shelters under
+        big rocks, jetting it out through their gills. Their gill muscles are so
+        powerful, it is nearly impossible to pull them out of a cave if they
+        feel attacked and extend those muscles to lock themselves in.
+      </p>
+    </div>
+    <a href="http://en.wikipedia.org/wiki/Grouper">Read more on Wikipedia</a>
+
+    <!-- 2 task -->
+    <h1>The ocean</h1>
+
+    <img
+      class="pic"
+      src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png"
+      alt="Photo of rocky ocean beach in Hawaii"
+    />
+
+    <div class="info">
+      <p>
+        The <strong>ocean</strong> is the connected body of salty water that
+        covers 70.8% of the Earth's surface. The sea moderates the Earth's
+        climate and has important roles in the water cycle, carbon cycle, and
+        nitrogen cycle. Although the sea has been travelled and explored since
+        prehistory, the modern scientific study of the sea—oceanography—dates
+        broadly to the British Challenger expedition of the 1870s. The sea is
+        conventionally divided into four or five large sections, such as the
+        Pacific, called oceans while smaller sections, such as the
+        Mediterranean, are known as seas.
+      </p>
+      <p>
+        Owing to the present state of continental drift, the Northern Hemisphere
+        is now fairly equally divided between land and sea (a ratio of about
+        2:3) but the South is overwhelmingly oceanic (1:4.7). Salinity in the
+        open ocean is generally in a narrow band around 3.5% by mass, although
+        this can vary in more landlocked waters, near the mouths of large
+        rivers, or at great depths. About 85% of the solids in the open sea are
+        sodium and chloride. Deep-sea currents are produced by differences in
+        salinity and temperature. Surface currents are formed by the friction of
+        waves produced by the wind and by tides, the changes in local sea level
+        produced by the gravity of the Moon and Sun. The direction of all of
+        these is governed by surface and submarine land masses and by the
+        rotation of the Earth (the Coriolis effect).
+      </p>
+
+      <a href="http://en.wikipedia.org/wiki/Sea">Read more on Wikipedia</a>
+
+      <!-- 3 task -->
+      <h1>Boxers are beautiful?</h1>
+
+      <div class="photo-gallery">
+        <img
+          class="photo"
+          src="https://www.kasandbox.org/programming-images/animals/boxer-getting-tan.png"
+        />
+
+        <img
+          class="photo"
+          src="https://www.kasandbox.org/programming-images/animals/boxer-laying-down.png"
+        />
+
+        <img
+          class="photo"
+          src="https://www.kasandbox.org/programming-images/animals/boxer-wagging-tongue.png"
+        />
+      </div>
+    </div>
+
+    <!-- 4 task -->
+    <img
+      id="planet"
+      src="https://www.kasandbox.org/programming-images/space/planet.png"
+      width="300"
+    />
+
+    <div id="greeting">
+      <p>Hello! Welcome to position planet!</p>
+    </div>
+
+    <img
+      id="creature"
+      src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png"
+    />
+
+    <!-- 5 task -->
+    <h1>What are clouds?</h1>
+
+    <img
+      id="cloud-pic"
+      src="https://www.kasandbox.org/programming-images/landscapes/clouds-from-plane.png"
+    />
+
+    <div id="cloud-sidebar">
+      <h5>Why are some clouds yellow?</h5>
+      <p>
+        Yellowish clouds may occur in the late spring through early fall months
+        during forest fire season. The yellow color is due to the presence of
+        pollutants in the smoke. Yellowish clouds caused by the presence of
+        nitrogen dioxide are sometimes seen in urban areas with high air
+        pollution levels.
+      </p>
+    </div>
+
+    <p>
+      In meteorology, a cloud is a visible mass of liquid droplets or frozen
+      crystals made of water or various chemicals suspended in the atmosphere
+      above the surface of a planetary body. These suspended particles are also
+      known as aerosols and are studied in the cloud physics branch of
+      meteorology.
+    </p>
+
+    <p>
+      Terrestrial cloud formation is the result of air in Earth's atmosphere
+      becoming saturated due to either or both of two processes: cooling of the
+      air and adding water vapor. With sufficient saturation, precipitation will
+      fall to the surface.
+    </p>
+
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Cloud">Read more on Wikipedia</a>
+    </p>
+
+    <!-- 6 Project -->
+    <div class="invite-container">
+      <h1>You're Invited!</h1>
+      <h2>Birthday Party!!!</h2>
+
+      <p><b>The details:</b></p>
+      <ul class="details">
+        <li><strong>Date:</strong> January 25 , 2025</li>
+        <li><strong>Time:</strong> 6:00 PM</li>
+        <li><strong>Location:</strong> Tole Bi 59</li>
+        <li><strong>Dress Code:</strong> Whatever you want</li>
+      </ul>
+
+      <p>I am so excited to celebrate my day with you!</p>
+
+      <button onclick="alert('Thank you for RSVPing!')">RSVP Now</button>
+    </div>
+
+    <!-- 7 UNIT -->
+    <!-- 1 task -->
+    <h1>A classy gallery</h1>
+
+    <img
+      class="animal image-small black-frame"
+      src="https://www.kasandbox.org/programming-images/animals/cat.png"
+    />
+
+    <img
+      class="animal image-small gold-frame"
+      src="https://www.kasandbox.org/programming-images/animals/fox.png"
+    />
+
+    <img
+      class="animal image-medium silver-frame"
+      src="https://www.kasandbox.org/programming-images/animals/penguins.png"
+    />
+
+    <!-- 2 task -->
+    <h1>The Periodic Table</h1>
+
+    <p>
+      There are three broad classes of elements:
+      <strong class="metal">metals</strong>,
+      <strong class="non-metal">non-metals</strong>, and
+      <strong class="semi-metal">semi-metals</strong>.
+    </p>
+
+    <h2 class="metal">Metals</h2>
+
+    <ul>
+      <li>Solid</li>
+      <li>Good conductors of electricity</li>
+      <li>Ductile</li>
+      <li>Malleable</li>
+    </ul>
+
+    <h2 class="non-metal">Non-metals</h2>
+
+    <ul>
+      <li>Brittle</li>
+      <li>Poor conductors</li>
+    </ul>
+
+    <h2 class="semi-metal">Semi-metals (Metalloids)</h2>
+
+    <ul>
+      <li>Partially conduct electricity</li>
+    </ul>
+
+    <!-- 3 task -->
+    <h1>Descendants of Khan</h1>
+
+    <p>
+      <strong class="emperor">Genghis Khan</strong> (<span class="reign"
+        >1206-1227</span
+      >) was a emperor who had many sons and daughters, and many famous emperors
+      are descended from him. (But not Sal Khan!)
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Reign</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="emperor">Ögedei Khan</td>
+          <td class="reign">1229-1241</td>
+        </tr>
+        <tr>
+          <td class="emperor">Kublai Khan</td>
+          <td class="reign">1260-1294</td>
+        </tr>
+        <tr>
+          <td class="emperor">Temür Khan</td>
+          <td class="reign">1294-1307</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <!-- 4 task -->
+
+    <h1>Animal group names</h1>
+        
+    <p>For many species of animals, there are names that we use to refer to a group of them - like a flock of birds. Here are a few you might not know.</p>
+    
+    <h2>A skulk of foxes</h2>
+
+    <p>Also called a "leash."</p>
+    
+    <img src="https://www.kasandbox.org/programming-images/animals/fox.png">
+    <img src="https://www.kasandbox.org/programming-images/animals/fox.png">
+    
+    <h2>A clowder of cats</h2>
+    
+    <p>Also called a "pounce", "glaring", "kindle", or "clutter."</p>
+    
+    <img src="https://www.kasandbox.org/programming-images/animals/cat.png">
+    <img src="https://www.kasandbox.org/programming-images/animals/cat.png">
+    
+    <p>
+    <a href="http://en.wikipedia.org/wiki/List_of_animal_names">Learn more on Wikipedia</a>
+    </p>
+  </body>
+</html>
