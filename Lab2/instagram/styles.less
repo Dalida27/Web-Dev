@@ -1,0 +1,131 @@
+body{
+  font-family: Helvetica, Arial, sans-serif
+}
+
+.container{
+  .hero{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    .photo{
+      width: 60%;
+      margin-left: 80px;
+    }
+    .auth{
+      width: 70%;
+      .table{
+        border: 1px solid lightgray;
+        width: 70%;
+        padding: 10px;
+        .logo{
+          font-size: 45px;
+          font-style: italic;
+          text-align: center;
+          font-weight: 600;
+        }
+        .input{
+          margin: auto;
+          width: 80%;
+          input{
+            width: 100%;
+            padding: 9px;
+            margin-bottom: 15px;
+            border:1px solid lightgray;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+          }
+        }
+        .signIn{
+          background-color: #007bfc;
+          text-align: center;
+          width: 70%;
+          margin: auto;
+          color: white;
+          padding: 9px;
+          font-size: medium;
+          border-radius: 10px;
+          font-weight: 600;
+        }
+      }
+      .line{
+        display: flex;
+        align-items: center;
+        color: gray;
+        .border{
+          border: 1px solid lightgray;
+          width: 40%;
+          margin: auto;
+        }
+      }
+      .facebook{
+        display: flex;
+        align-items: center;
+        color: #007bfc;
+        font-size: medium;
+        text-align: center;
+        font-weight: 600;
+        margin: auto;
+        width: 60%;
+        justify-content: space-between;
+        img{
+          width: 10%;
+        }
+      }
+      .resset{
+        font-size: small;
+        text-align: center;
+        font-weight: 400;
+      }
+    }
+
+    .signUp{
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      border: 1px solid lightgray;
+      width: 70%;
+      justify-content: space-around;
+      padding: 10px;
+      font-weight: 500;
+      .register{
+        color: #007bfc;
+        font-weight: 500;
+      }
+    }
+
+    .application{
+      margin-top: 10px;
+      p{
+        margin-left: 80px;
+      }
+      .apps{
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        img{
+          width: 30%;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .footer{
+    padding-top: 50px;
+    text-align: center;
+    font-size: small;
+    font-weight: 500;
+    color: gray;
+    .first{
+      display: flex;
+      width: 70%;
+      margin: auto;
+      align-items: center;
+      justify-content: space-evenly;
+      font-size: small;
+      font-weight: 500;
+      color: gray;
+    }
+  }
+}
