@@ -1,0 +1,70 @@
+.header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.main{
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+.main p {
+  font-size: x-large;
+  font-weight: 600;
+}
+.input input{
+  width: 60%;
+  padding: 10px;
+  font-size: medium;
+}
+.input button {
+  margin-left: 20px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  font-size: medium;
+}
+.input {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 300px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.tasks ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tasks li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+  font-size: x-large;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: red;
+  font-size: medium;
+  border: 1px solid red;
+  border-radius: 5px;
+}
