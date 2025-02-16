@@ -1,0 +1,8 @@
+<div class="home-list">
+  <div *ngFor="let home of homes" class="home-card">
+    <img [src]="home.image" alt="{{ home.name }}" />
+    <h2>{{ home.name }}</h2>
+    <p>{{ home.description }}</p>
+    <p><strong>Location:</strong> {{ home.location }}</p>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+.home-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.home-card {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.home-card img {
+  width: 100%;
+  border-radius: 8px;
+}
